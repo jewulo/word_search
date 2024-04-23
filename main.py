@@ -12,10 +12,10 @@ class Solution(object):
         self.COLS = None
         self.ROWS = None
 
-    def exist(self, _board, word):
-        self.ROWS = len(_board)
-        self.COLS = len(_board[0])
-        self.board = _board
+    def exist(self, board, word):
+        self.ROWS = len(board)
+        self.COLS = len(board[0])
+        self.board = board
 
         for row in range(self.ROWS):
             for col in range(self.COLS):
